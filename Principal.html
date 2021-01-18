@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js" id="principal">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="rastreador, sistema, gerenciamento, monitoramento, central, chip, rastreamento, instalação, faturamento">
+    <meta name="author" content="JNS Corporation">
+    <title>JNS</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="imagens/Icone/logo-minima-clara-branca.png">
+</head>
+
+<body>
+    <nav id="sombra" class="navbar navbar-expand-lg navbar-light fixed-top bg-light fonte sombra">
+        <a href="Principal.html" class="header-nav__logo mr-5">
+            <img class="border border-secondary rounded-pill" src="imagens/Icone/logo-minima-clara-branca.png" alt="Logo empresa">
+        </a>
+        <button class="navbar-toggler header-nav__hamburgger d-md-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mx-auto justify-content-center text-center">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">Início <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#">Boleto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Suporte</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produtos</a>
+                    <div class="dropdown-menu fonte-drop text-center" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Chip</a>
+                        <a class="dropdown-item" href="#">Monitoramento</a>
+                        <a class="dropdown-item" href="#">Rastreador</a>
+                        <a class="dropdown-item" href="#">2ª via Boleto</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 border border-secondary p-2 rounded-pill d-md-block d-none" style="background-color: #14273d">
+                <i class="far fa-clock mr-1 fa-sm text-light"></i>
+                <div class="timer d-inline pt-n5 text-light"></div>
+            </form>
+        </div>
+    </nav>
+    <section class="container-fluid text-light tamanhoCarousel mt-5" style="padding-top: 3em; background: #14273d;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators contador-carousel">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img src="imagens/portfolio/Rastrear02.PNG" class="d-block w-50 mx-auto" alt="...">
+                    <h4 class="mt-4">Rastreamento do seu patrimônio 24 horas!</h4>
+                    <p>Carros, motos, caminhões e frotas.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/portfolio/Rastrear03.PNG" class="d-block w-50 mx-auto" alt="...">
+                    <h4 class="mt-4">Plataforma própria</h4>
+                    <p>Plataforma, ampla e segura.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/portfolio/Rastrear09_1.PNG" class="d-block w-50 mx-auto" alt="...">
+                    <h4 class="mt-4">Para mais informações</h4>
+                    <p>Ligue: <strong>(31)3150-4912</strong> ou pelo WhatsApp: <strong>(31)97583-5556</strong></p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon seta-carousel" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon seta-carousel" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="header-animado pt-2 mt-5">
+        <div class="container-fluid cartao">
+            <div class="row mx-auto">
+                <div class="col-lg-4 col-md-6 mb-5 flip">
+                    <div class="mb-md-4 mb-5 pb-5 pb-md-0 ml-4">
+                        <div class="frente">
+                            <div class="view overlay">
+                                <img src="imagens/portfolio/Rastrear02.PNG" class="card-img-top imagem" alt="Saiba onde estão seus veículos">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card fundo">
+                            <div class="card-body">
+                                <p class="card-text text-justify">
+                                    Está gastando muito com sua frota? Não sabe onde os seus veículos estão? Agora você tem todo esse controle, com relatórios de tempo de parada e o tempo em movimento, análise da rota, entre outros!
+                                </p>
+                            </div>
+                            <div class="card-footer p-4 text-center mt-5">
+                                <a href="#!" class="btnCartao corBranca">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 flip">
+                    <div class="mt-4 mt-md-0 mb-md-0 mb-5 pb-md-0 pb-5 pb-md-0 pt-5 pt-md-0 ml-4">
+                        <div class="d-block d-md-none mt-n4"></div>
+                        <div class="frente">
+                            <div class="view overlay">
+                                <img src="imagens/portfolio/Rastrear03.PNG" class="card-img-top imagem" alt="Localização via satélite">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card fundo">
+                            <div class="card-body">
+                                <p class="card-text text-justify">Através de um sofisticado sistema de localização via satélite,
+                                    você obtém informações importantes do seu veículo e um serviço de bloqueio do seu veículo em caso de roubo.</p>
+                            </div>
+                            <div class="card-footer p-4 text-center mt-5">
+                                <a href="#!" class="btnCartao corBranca">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 flip">
+                    <div class="d-block d-md-none mt-4"></div>
+                    <div class="mt-5 mt-md-0 mb-md-0 mb-5 pb-md-0 pb-5 pb-md-0 pt-5 pt-md-0 ml-4">
+                        <div class="frente">
+                            <div class="view overlay">
+                                <img src="imagens/portfolio/Rastrear05.PNG" class="card-img-top imagem" alt="Rápido e eficiente">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card fundo">
+                            <div class="card-body">
+                                <p class="card-text text-justify">Tenha acesso rápido e eficiente ao rastreamento dos seus ítens através das nossas plataformas online.</p>
+                            </div>
+                            <div class="card-footer p-4 text-center mt-5">
+                                <a href="#!" class="btnCartao corBranca">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 flip">
+                    <div class="mt-4 mt-md-0 mb-md-0 mb-5 pb-md-0 pb-5 pb-md-0 pt-5 pt-md-0 ml-4">
+                        <div class="d-block d-md-none mt-4"></div>
+                        <div class="frente">
+                            <div class="view overlay">
+                                <img src="imagens/portfolio/Rastrear06.PNG" class="card-img-top imagem" alt="Segurança e tranquilidade">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card fundo">
+                            <div class="card-body">
+                                <p class="card-text text-justify">Tenha tranquilidade para aproveitar as coisas boas da vida, da sua segurança nós cuidamos!</p>
+                            </div>
+                            <div class="card-footer p-4 text-center mt-5">
+                                <a href="#!" class="btnCartao corBranca">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 flip">
+                    <div class="d-block d-md-none mt-5 pt-5"></div>
+                    <div class="mt-4 mt-md-0 mb-md-0 mb-5 pb-md-0 pb-5 pb-md-0 pt-5 pt-md-0 ml-4">
+                        <div class="frente">
+                            <div class="view overlay">
+                                <img src="imagens/portfolio/Rastrear07.PNG" class="imagem card-img-top" alt="Rastreador de bolso">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card fundo">
+                            <div class="card-body">
+                                <p class="card-text text-justify">Adquira o rastreador de bolso, e tenha segurança a onde quiser. Trabalhamos com equipamentos de alta tecnologia e última geração.</p>
+                            </div>
+                            <div class="card-footer p-4 text-center mt-5">
+                                <a href="#!" class="btnCartao corBranca">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-n5 flip">
+                    <div class="d-block d-md-none mt-5 pt-4"></div>
+                    <div class="mt-4 mt-md-0 mb-md-0 mb-5 pb-md-0 pb-5 pb-md-0 pt-5 pt-md-0 d-none d-md-block">
+                        <div class="frente">
+                            <div class="view overlay">
+                                <img src="imagens/portfolio/Rastrear08.PNG" class="card-img-top imagem" alt="">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card fundo">
+                            <div class="card-body">
+                                <p class="card-text text-justify">Acompanhar o rastreamento do seu veículo ou da frota da sua empresa traz mais comodidade, segurança e planejamento para você. Além de proporcionar uma plataforma ampla e segura. Venha conhecer!</p>
+                            </div>
+                            <div class="card-footer p-4 text-center mt-5">
+                                <a href="#!" class="btnCartao corBranca">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid mt-n5">
+            <div class="row">
+                <div class="col col-12 d-md-block d-none">
+                    <div class="header-animado__ilustra mx-n5">
+                        <div class="nuvens"></div>
+                        <div class="helicoptero"></div>
+                        <div class="casas"></div>
+                        <div class="rua"></div>
+                        <div class="carrosCima"></div>
+                        <div class="carrosBaixo"></div>
+                    </div>
+                </div>
+                <div class="col col-12 d-md-none d-block ml-n5 mt-n4">
+                   <div class="carros"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main role="main" class="container-fluid">
+        <div class="mt-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mb-4">
+                        <div class="view overlay z-depth-1-half" id="historia">
+                            <img src="imagens/portfolio/Rastrear01.PNG" class="card-img-top img-fluid img-thumbnail rounded" style="height: 450px; width: 680px" alt="Rastrear seu veículo.">
+                            <div class="mask rgba-white-light"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mb-4">
+                        <h2>Rastreamento próprio</h2>
+                        <hr>
+                        <p class="text-justify">Há mais de 10 anos no mercado a JNS vem inovando cada vez mais. Criamos um sistema de rastreamento e monitoramento próprio, leve e eficiente. Possibilitamos que você visualize e monitore sua frota ou seu veículo 24 horas por dia.</p>
+                        <p class="text-justify"> Em caso de assalto, tenha maiores chances de recuperação do seu veículo com um rastreador!</p>
+                        <a href="https://mdbootstrap.com/" class="btn btn-outline-light text-dark">Fale com nosso setor vendas.</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <section class="footer-site font-small indigo pt-4 mt-4 mb-5">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-7 mt-4 text-light teste pl-5 pr-5 mx-auto">
+                        <h4 class="text-uppercase font-weight-bolder display-3 teste-sombra">Venha fazer um teste com a gente</h4>
+                        <div class="mt-5 text-center">
+                            <a href="https://beta.jns.net.br" target="_blank" class="btnAcesso corAzul">Experimente aqui</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="localizacao" class="maps mb-4 pl-5 pr-5 mapa-tamanho">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.7635881021865!2d-44.04620198542199!3d-19.97644214491318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bfeee0c93617%3A0x2ddadae05145c189!2sJN%20RASTREAMENTO!5e0!3m2!1spt-BR!2sbr!4v1589564068735!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="container-fluid mt-5 ml-5">
+        <div class="row">
+            <div class="col col-12">
+                <ul class="nav mx-auto justify-content-center">
+                    <li class="nav-item mr-2 mr-md-n2 ml-n5 mr-md-4 mr-lg-5" tabindex="-1">
+                        <div class="nav-link">
+                            <div class="rounded-circle text-center btn btn-primary" data-toggle="modal" data-target="#modalDicas"><i class="far fa-lightbulb fa-3x p-3"></i></div>
+                            <div class="text-center pt-3 ml-n2 ml-md-0 text-secondary" title="Dicas">
+                                <span class="" data-toggle="modal" data-target="#modalDicas">DICAS</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-5 ml-2 ml-md-n2 mr-4 mr-md-0" tabindex="-1">
+                        <div class="nav-link">
+                            <a href="#historia" class="rounded-circle text-center btn btn-primary ml-3"><i class="fas fa-film fa-3x pt-3 pb-3 pl-2 pr-2"></i></a>
+                            <div class="text-center pt-3 ml-2 text-secondary d-md-none d-block">
+                                <span>HISTÓRIA</span>
+                            </div>
+                            <div class="text-center pt-3 p-3 mr-5 text-secondary d-none d-md-block">
+                                <span>&nbsp;NOSSA <br>&nbsp;HISTÓRIA</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-3 ml-md-n2 ml-n3 mr-4 mr-md-0" tabindex="-1">
+                        <div class="nav-link">
+                            <div class="rounded-circle text-center btn btn-primary ml-3"><i class="far fa-comment fa-3x pt-3 pb-3 pl-2 pr-2"></i></div>
+                            <div class="text-justify-center p-3 mr-5 text-secondary d-none d-md-block"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FALE <br>CONOSCO</span></div>
+                            <div class="text-justify-center p-3 pl-4 text-secondary d-block d-md-none"><span>DÚVIDAS</span></div>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-5 d-md-block d-none d-ml-n2" tabindex="-1">
+                        <div class="nav-link">
+                            <a class="rounded-circle text-center btn btn-primary ml-4" href="#localizacao"><i class="fas fa-map-marker-alt fa-3x p-3"></i></a>
+                            <div class="text-justify-center p-3 mr-5 text-secondary">
+                                <span class="nav-link text-secondary d-none d-md-block">&nbsp;&nbsp;&nbsp;ONDE <br> ESTAMOS</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ml-lg-2 ml-n2 mr-5 mr-md-0" tabindex="-1">
+                        <div class="nav-link">
+                            <div class="rounded-circle text-center btn btn-primary ml-3" data-toggle="modal" data-target="#modalBeneficio">
+                                <i class="fas fa-chart-line fa-3x pt-3 pb-3 pl-2 pr-2"></i>
+                            </div>
+                            <div class="text-justify-center p-3 mr-md-5 mr-0 text-secondary"><span>BENEFÍCIOS</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer rodape mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-4 col-12 d-md-block d-none">
+                    <div class="submenu fonte-footer text-secondary">
+                        <ul class="nav flex-column">
+                            <li class="nav-item ml-n1 "><a class="nav-link link-secondary" href="/pt/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href=".../institucional">Institucional</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/.../solucao">Solução</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/.../suporte">Suporte</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/.../rastreadores">Rastreadores</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/.../noticias">Notícias</a></li>
+                            <li class="nav-item "><a class="nav-link" href="https://jobs.solides.com/JNS" target="_blank">Trabalhe Conosco</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/.../contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="row my-auto fonte-footer-endereco text-secondary">
+                        <span class="pl-4 text-md-right text-center">R. Tiradentes, 966 - 3º andar | Industrial <br> Contagem - MG | CEP: 32235-250 </span>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-12 d-block d-md-none">
+                    <div class="fonte-footer text-secondary text-center justify-content-center mx-auto">
+                        <ul class="nav flex-column">
+                            <li class="nav-item mx-auto"><a class="nav-link link-secondary" href="/pt/" style="margin-right: .5em">Home</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href=".../institucional">Institucional</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href="/.../solucao">Solução</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href="/.../suporte">Suporte</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href="/.../rastreadores">Rastreadores</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href="/.../noticias">Notícias</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href="https://jobs.solides.com/JNS" target="_blank">Trabalhe Conosco</a></li>
+                            <li class="nav-item mx-auto"><a class="nav-link" href="/.../contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="row my-auto text-secondary">
+                        <span class="pl-4 text-md-right mx-auto mt-5">R. Tiradentes, 966 - 3º andar | Industrial <br> Contagem - MG | CEP: 32235-250 </span>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-12 mt-5 text-secondary">
+                    <div class="h2">
+                        <p class="text-center">Newsletter JNS</p>
+                    </div>
+                    <div class="subtitle mb-3">
+                        <p class="text-center">Receba notícias e novidades da JNS</p>
+                    </div>
+                    <div>
+                        <form action="#" method="POST">
+                            <label class="sr-only" for="inlineFormInputGroupUsername2">Email</label>
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Digite seu email">
+                                <div class="input-group-append">
+                                    <a href="#" class="btn btn-primary">Enviar</a>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="container-fluid">
+                            <div class="text-light ml-n5">
+                                <ul class="list-inline mt-5 pt-5">
+                                    <li class="ml-5 mt-1">
+                                        <a href="https://www.facebook.com/RastreamentoJN" target="_blank" class="btn btn-outline text-light">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <title>Facebook</title>
+                                        </a>
+                                    </li>
+                                    <li class="ml-5 mt-2">
+                                        <a href="https://twitter.com/JNS" target="_blank" class="btn btn-outline text-light">
+                                            <i class="fab fa-twitter"></i>
+                                            <title>Twitter</title>
+                                        </a>
+                                    </li>
+                                    <li class="ml-5 mt-2">
+                                        <a href="https://br.linkedin.com/jn-rastreamento" target="_blank" class="btn btn-outline text-light">
+                                            <i class="fab fa-linkedin-in"></i>
+                                            <title>Linkedin</title>
+                                        </a>
+                                    </li>
+                                    <li class="ml-5 mt-2">
+                                        <a href="https://www.instagram.com/jnrastreamento/" target="_blank" class="btn btn-outline text-light">
+                                            <i class="fab fa-instagram"></i>
+                                            <title>Instagram</title>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="col col-md-4 col-12 text-right pr-5 d-md-block d-none" style="transform: translateX(-11%);">
+                    <p class="text-secondary">Fale com nosso comercial</p>
+                    <p><a href="tel:+553133245710" class="rodape-link"><i class="fas fa-phone" style="margin-right:10px;margin-left: 5px; font-size:20px;"></i><span>+55 (31) 3150-4912</span></a></p>
+                    <p class="text-secondary">Fale com nosso suporte</p>
+                    <p style="margin-bottom:20px; margin-right: -15px"><a href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5531975835556" class="rodape-link"><span class="col-md-12"><i class="fab fa-whatsapp" style="margin-right: 10px; font-size:25px;"></i>+55 (31) 97583-5556</span></a></p>
+                </div>
+                <div class="col col-md-4 col-12 text-right pr-5 d-md-none d-block">
+                    <p class="text-secondary text-center">Fale com nosso comercial</p>
+                    <p class="text-center"><a href="tel:+553133245710" class="rodape-link"><i class="fas fa-phone" style="margin-right:10px;margin-left: 5px; font-size:20px;"></i><span class="">+55 (31) 3150-4912</span></a></p>
+                    <p class="text-secondary text-center">Fale com nosso suporte</p>
+                    <p class=" text-center" style="margin-bottom:20px; margin-right: -15px"><a href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5531975835556" class="rodape-link"><span class="col-md-12"><i class="fab fa-whatsapp" style="margin-right: 10px; font-size:25px;"></i>+55 (31) 97583-5556</span></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-center mt-5 mb-2 mr-n5">
+                        <p id="ano" class="d-inline"></p> Copyright:
+                        <a href="https://beta.jns.net.br" class="footer-copyright text-light pb-0 pt-3">JNS</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal Dica -->
+    <div class="modal fade" id="modalDicas" tabindex="-1" role="dialog" aria-labelledby="modalDicas" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dicas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-justify p-5">
+                    <div class="mx-auto text-center">
+                        <img class="border border-secondary rounded-pill text-center mb-4 modalImagem corAzul" src="imagens/Icone/logo-minima-clara-branca.png" alt="Logo empresa" style="width: 120px;">
+                    </div>
+                    <p>Para você que necessita acompanhar os trajetos do seu veículo ou acompanhar uma frota inteira, venha para a JNS. Temos uma completa infraestrutura para lhe entregar uma segurança completa.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Historia -->
+    <div class="modal fade" id="modalBeneficio" tabindex="-1" role="dialog" aria-labelledby="modalBeneficio" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Benefícios</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-justify p-5">
+                    <div class="mx-auto text-center">
+                        <img class="border border-secondary rounded-pill text-center mb-4 modalImagem corAzul" src="imagens/Icone/logo-minima-clara-branca.png" alt="Logo empresa" style="width: 120px;">
+                    </div>
+                    <p>Acesse a plataforma pelo celular, tablet ou computador, com um Login pessoal.</p>
+                    <p>Com R$1,00 por dia você protege seu veículo e ainda conta com a assistência 24h para dar apoio em caso de furto ou roubo.</p>
+                    <p>Armazenamento dos trajetos percorridos, por seis meses.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="javascript/main.js" type="application/javascript"></script>
+</body></html>
