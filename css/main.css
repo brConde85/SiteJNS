@@ -595,27 +595,25 @@ p {
 .imagem {
     width: 29em;
     height: 20em;
+    border-radius: 10px;
 }
 
-/*
-.imagem:hover {
-    transition: ease all 1.9s;
-    color: white;
-    background-color: rgba(255, 255, 255, .9);
-    transform: rotateY(-180deg);
-    border-radius: 50px;
-    perspective: 750px;
+@media (min-width:1740px) {
+    .imagem {
+        width: 38.2em;
+        height: 21.2em;
+        margin-top: -1em;
+    }
+
+    .flip .fundo {
+        width: 38.2em !important;
+    }
 }
-*/
 
 .flip {
     width: 480px;
     height: 270px;
     perspective: 1000px;
-}
-
-.imagem {
-    border-radius: 10px;
 }
 
 .flip .frente {
@@ -812,20 +810,22 @@ p {
 }
 
 @-webkit-keyframes ba {
-   from {
-       right: 0
+    from {
+        right: 0
     }
-   to {
-       right: 105%
+
+    to {
+        right: 105%
     }
 }
 
 @keyframes ba {
-   from {
-       right: 0
+    from {
+        right: 0
     }
-   to {
-       right: 105%
+
+    to {
+        right: 105%
     }
 }
 
@@ -841,79 +841,85 @@ p {
     padding-top: 13px;
 }
 
-.banner{
-   position: relative;
-   top: 1.2px;
-   right: 0;
-   background-image: url(../imagens/portfolio/banner-JNS.png);
-   background-repeat: repeat-x;
-   height: 300px;
-   width: calc(210% + .1em);
-   background-size: auto;
-   animation: ba 15s infinite;
-   animation-direction: alternate-reverse;
-   animation-timing-function: ease-in-out;
+.banner {
+    position: relative;
+    top: 1.2px;
+    right: 0;
+    background-image: url(../imagens/portfolio/banner-JNS-borda.png);
+    background-repeat: repeat-x;
+    height: 300px;
+    width: calc(210% + .1em);
+    background-size: auto;
+    animation: ba 15s infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
 }
 
-.banner::after{
-    content:"";
-    position:absolute;
+.banner::after {
+    content: "";
+    position: absolute;
     height: 300px;
     animation-delay: 3s;
-    left:100vw;
+    left: 100vw;
 }
 
-.banner-1, .banner-2,
-.banner-3, .banner-4,
-.banner-5, .banner-6 {
+.banner-1,
+.banner-2,
+.banner-3,
+.banner-4,
+.banner-5,
+.banner-6 {
     -webkit-animation: ba 3s linear infinite;
     animation: ba 8s linear infinite;
     height: 300px;
     background-repeat: no-repeat;
     background-size: auto;
     animation: ba 10s linear infinite;
-    display:;
+    display: ;
     position: fixed;
     top: 299px;
     right: 0;
     width: 390px;
 }
 
-.banner-1::after, .banner-2::after,
-.banner-3::after, .banner-4::after,
-.banner-5::after, .banner-6::after {
-   content:"";
-   position:;
-   left:100vw;
-   width: 10px;
-   height: 50px;
+.banner-1::after,
+.banner-2::after,
+.banner-3::after,
+.banner-4::after,
+.banner-5::after,
+.banner-6::after {
+    content: "";
+    position: ;
+    left: 100vw;
+    width: 10px;
+    height: 50px;
 }
 
 
-.banner-1{
+.banner-1 {
     background-image: url(../imagens/portfolio/banner/banner01.png);
     animation-delay: -3.2s;
 }
 
-.banner-2{
+.banner-2 {
     background-image: url(../imagens/portfolio/banner/banner02.png);
     animation-delay: -6.4s;
 
 }
 
-.banner-3{
+.banner-3 {
     background-image: url(../imagens/portfolio/banner/banner03.png);
 }
 
-.banner-4{
+.banner-4 {
     background-image: url(../imagens/portfolio/banner/banner04.png);
 }
 
-.banner-5{
+.banner-5 {
     background-image: url(../imagens/portfolio/banner/banner05.png);
 }
 
-.banner-6{
+.banner-6 {
     background-image: url(../imagens/portfolio/banner/banner06.png);
 }
 
