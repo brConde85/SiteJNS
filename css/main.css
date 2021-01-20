@@ -496,9 +496,9 @@ p {
 .header-animado__ilustra .lua {
     background-image: url(../imagens/lua.png);
     background-size: 400px;
-    -webkit-animation: h 45s infinite ease-in-out;
-    animation: h 45s infinite ease-in-out;
-    animation-delay: 3.4s;
+    -webkit-animation: h 48.3s infinite ease-in-out;
+    animation: h 48.3s infinite ease-in-out;
+/*    animation-delay: 3.4s;*/
     background-repeat: no-repeat;
     position: absolute;
     margin-top: -50px;
@@ -874,65 +874,41 @@ p {
 
 .prop-Animada {
     background-color: rgb(20, 39, 61);
-<<<<<<< HEAD
 /*
     background: linear-gradient(to bottom right,
         rgba(20, 39, 61, 2),rgba(20, 39, 61, .6), rgba(20, 39, 61, 5));
 */
     height: 400px;
-=======
-    height: 375px;
->>>>>>> SiteJNS/master
     position: static;
     top: 200%;
     transition: all ease-in-out .3s;
     margin-left: -2.2em;
     margin-right: -2.2em;
-<<<<<<< HEAD
     margin-top: 60px;
     padding-top: 13px;
     margin-bottom: 2.15em;
     transform-origin: top;
     transform-style: preserve-3d;
-=======
-    margin-top: -12px;
-    padding-top: 28px;
-    padding-bottom: 28px;
->>>>>>> SiteJNS/master
 }
 
 .banner {
     position: relative;
-<<<<<<< HEAD
     bottom: -28px;
     right: 0;
     background-image: url(../imagens/portfolio/banner-JNS-borda-2.png);
     background-repeat: repeat-x;
-=======
-    bottom: -8.2px;
-    right: 0;
->>>>>>> SiteJNS/master
     height: 300px;
-    width: 2638px;
-    background-image: url(../imagens/portfolio/banner-JNS-borda-1.png);
+    width: calc(210% + .1em);
     background-size: auto;
-<<<<<<< HEAD
     animation: ba 25s infinite;
     animation-direction: alternate-reverse;
     animation-timing-function:linear;
-=======
-    animation: ba 13s linear infinite;
-    margin-left: 3em;
-    background-color: rgb(20, 39, 61);
-    padding-bottom: 28px;
->>>>>>> SiteJNS/master
 }
 
 .banner::after {
     content: "";
     position: absolute;
     height: 300px;
-<<<<<<< HEAD
     animation-delay: 3s;
     left: 100vw;
 }
@@ -962,30 +938,6 @@ p {
     top: 0px;
     transform-origin: top;
     transform: perspective(500px) rotateX(220deg);
-=======
-    width: 1638px;
-    background-image: url(../imagens/portfolio/banner-JNS-borda-1.png);
-    background-size: auto;
-    animation-delay: 3s;
-    left: 100vw;
-    margin-left: 4.8em;
-    background-color: rgb(20, 39, 61);
-    padding-bottom: 28px;
-}
-
-@media (min-width: 1700px) {
-    .banner {
-        margin-left: 1em;
-        width: 3905px;
-        background-image: url(../imagens/portfolio/banner-JNS-borda-Teste.png);
-    }
-
-    .banner::after {
-        margin-left: 6.5em;
-        width: 3838px;
-        background-image: url(../imagens/portfolio/banner-JNS-borda.png);
-    }
->>>>>>> SiteJNS/master
 }
 
 .carros {
