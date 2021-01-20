@@ -831,96 +831,57 @@ p {
 
 .prop-Animada {
     background-color: rgb(20, 39, 61);
-    height: 325px;
+    height: 375px;
     position: static;
     top: 200%;
     transition: all ease-in-out .3s;
     margin-left: -2.2em;
     margin-right: -2.2em;
     margin-top: -12px;
-    padding-top: 13px;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 .banner {
     position: relative;
-    top: 1.2px;
+    bottom: -8.2px;
     right: 0;
-    background-image: url(../imagens/portfolio/banner-JNS-borda.png);
-    background-repeat: repeat-x;
     height: 300px;
-    width: calc(210% + .1em);
+    width: 2638px;
+    background-image: url(../imagens/portfolio/banner-JNS-borda-1.png);
     background-size: auto;
-    animation: ba 15s infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
+    animation: ba 13s linear infinite;
+    margin-left: 3em;
+    background-color: rgb(20, 39, 61);
+    padding-bottom: 28px;
 }
 
 .banner::after {
     content: "";
     position: absolute;
     height: 300px;
+    width: 1638px;
+    background-image: url(../imagens/portfolio/banner-JNS-borda-1.png);
+    background-size: auto;
     animation-delay: 3s;
     left: 100vw;
+    margin-left: 4.8em;
+    background-color: rgb(20, 39, 61);
+    padding-bottom: 28px;
 }
 
-.banner-1,
-.banner-2,
-.banner-3,
-.banner-4,
-.banner-5,
-.banner-6 {
-    -webkit-animation: ba 3s linear infinite;
-    animation: ba 8s linear infinite;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    animation: ba 10s linear infinite;
-    display: ;
-    position: fixed;
-    top: 299px;
-    right: 0;
-    width: 390px;
-}
+@media (min-width: 1700px) {
+    .banner {
+        margin-left: 1em;
+        width: 3905px;
+        background-image: url(../imagens/portfolio/banner-JNS-borda-Teste.png);
+    }
 
-.banner-1::after,
-.banner-2::after,
-.banner-3::after,
-.banner-4::after,
-.banner-5::after,
-.banner-6::after {
-    content: "";
-    position: ;
-    left: 100vw;
-    width: 10px;
-    height: 50px;
-}
-
-
-.banner-1 {
-    background-image: url(../imagens/portfolio/banner/banner01.png);
-    animation-delay: -3.2s;
-}
-
-.banner-2 {
-    background-image: url(../imagens/portfolio/banner/banner02.png);
-    animation-delay: -6.4s;
-
-}
-
-.banner-3 {
-    background-image: url(../imagens/portfolio/banner/banner03.png);
-}
-
-.banner-4 {
-    background-image: url(../imagens/portfolio/banner/banner04.png);
-}
-
-.banner-5 {
-    background-image: url(../imagens/portfolio/banner/banner05.png);
-}
-
-.banner-6 {
-    background-image: url(../imagens/portfolio/banner/banner06.png);
+    .banner::after {
+        margin-left: 6.5em;
+        width: 3838px;
+        background-image: url(../imagens/portfolio/banner-JNS-borda.png);
+    }
 }
 
 .carros {
